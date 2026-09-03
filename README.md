@@ -1,6 +1,6 @@
 # Nt_Holdem
 
-## [Showcase](https://www.youtube.com/watch?v=vqeU-jXScK4)
+## [Showcase](https://www.youtube.com/watch?v=puqvX3AvupU)
 
 Nt_Holdem is a server-authoritative multiplayer Texas Hold'em resource for RedM. It supports the RSG and VORP frameworks and includes native poker animations, synchronized cards and props, NPC players, spectator support, configurable stakes, and multiple table locations.
 
@@ -34,5 +34,5 @@ Players can approach an enabled poker table and use the configured interaction k
 
 ## License and Warranty
 
-This project's source code is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.  
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.  
 TThis software is provided WITHOUT ANY WARRANTY. See the GNU GPLv3 for details.
