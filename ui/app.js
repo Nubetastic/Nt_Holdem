@@ -33,6 +33,9 @@
         TURN: "Turn", BET_TURN: "Turn betting", RIVER: "River",
         BET_RIVER: "River betting", SHOWDOWN: "Showdown",
     };
+    const suitNames = {
+        C: "CLUBS", D: "DIAMONDS", H: "HEARTS", S: "SPADES",
+    };
 
     const escapeHtml = (value) => String(value ?? "")
         .replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;")
@@ -165,10 +168,9 @@
     });
 
     function cardPath(card) {
-        const deckFolder = game.deckName.replace(" ", "_");
-        if (!card?.isRevealed) return `img/card/${deckFolder}/Back_${game.nuiCardEnding}.png`;
+        if (!card?.isRevealed) return "img/BACK.png";
         const royalty = card.royalty === "T" ? "10" : card.royalty;
-        return `img/card/${deckFolder}/${royalty}_${card.suit.toUpperCase()}_${game.nuiCardEnding}.png`;
+        return `img/${royalty}_${suitNames[card.suit.toUpperCase()]}.png`;
     }
 
     function cardsHtml(cards, className = "card") {

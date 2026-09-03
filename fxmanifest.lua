@@ -35,7 +35,7 @@ files {
 	'ui/style.css',
 	'ui/app.js',
 	'ui/fonts/*',
-	'ui/img/card/**/*.png'
+	'ui/img/*.png'
 }
 
 ui_page 'ui/index.html'

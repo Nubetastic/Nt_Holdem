@@ -1128,7 +1128,7 @@ h2 {
 
 .mini-card {
     width: clamp(30px, 4.65vh, 51px);
-    height: clamp(42px, 6.5vh, 71px);
+    aspect-ratio: 15 / 22;
     margin-left: clamp(-9px, -0.4vw, -4px);
     border-radius: 3px;
     background: #e8dfcf;
@@ -1140,8 +1140,9 @@ h2 {
 }
 
 .mini-card img {
-    width: 316%;
-    height: 316%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     display: block;
 }
 

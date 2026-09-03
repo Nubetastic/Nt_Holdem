@@ -240,7 +240,6 @@ local function buildGameView(game, source)
         stakeName = game.stakeName,
         stakeLabel = Config.Stakes[game.stakeName].label,
         deckName = game.deckName,
-        nuiCardEnding = ConfigProps.Cards.NuiEndings[game.deckName],
         allowNpcs = game.allowNpcs,
         state = game.state,
         handId = game.handID,
@@ -631,7 +630,7 @@ local function handleConfigureTable(game, command)
         or ServerData.PlayerLocations[source] then return end
 
     if not Config.Stakes[command.stakeName] or not ConfigProps.Cards.cardEndings[command.deckName]
-        or not ConfigProps.Cards.DeckEndings[command.deckName] or not ConfigProps.Cards.NuiEndings[command.deckName] then
+        or not ConfigProps.Cards.DeckEndings[command.deckName] then
         removeGame(game, "Invalid table settings. Hold Join to try again.")
         return
     end
