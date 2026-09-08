@@ -1,9 +1,5 @@
-@font-face {
-    font-family: "RDR";
-    src: url("fonts/rdrlino-regular-webfont.woff") format("woff");
-}
-
 :root {
+    font-family: 'RDRLino-Regular', cursive;
     --ink: #f4ead5;
     --muted: #b7aa93;
     --gold: #d4a84f;
@@ -27,7 +23,6 @@ body {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0) !important;
     color: var(--ink);
-    font-family: "RDR", Georgia, serif;
     user-select: none;
 }
 

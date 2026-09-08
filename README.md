@@ -19,8 +19,7 @@ Nt_Holdem is a server-authoritative multiplayer Texas Hold'em resource for RedM.
 
 ## Requirements
 
-- A RedM server  
-- `rsg-core` or `vorp_core`  
+- `rsg` or `vorp`  
 
 ## Installation
 
