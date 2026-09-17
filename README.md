@@ -13,7 +13,7 @@ Nt_Holdem is a server-authoritative multiplayer Texas Hold'em resource for RedM.
 - Server-side cards, action validation, cash debits, and payouts  
 - PolyZone-pulled NPC players with configurable personalities and spectator rendering  
 - Synchronized native poker animations, cards, chips, and table props  
-- Full-screen NUI with bundled card styles, camera controls, and UI scaling  
+- Full-screen NUI with custom cards, camera controls, and UI scaling  
 - Configurable stakes and card decks selected when a table is opened  
 - Additional tables can be added by duplicating a single keyed config entry  
 
