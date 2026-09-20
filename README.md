@@ -13,13 +13,14 @@ Nt_Holdem is a server-authoritative multiplayer Texas Hold'em resource for RedM.
 - Server-side cards, action validation, cash debits, and payouts  
 - PolyZone-pulled NPC players with configurable personalities and spectator rendering  
 - Synchronized native poker animations, cards, chips, and table props  
-- Full-screen NUI with custom cards, camera controls, and UI scaling  
+- Full-screen NUI with bundled card styles, camera controls, and UI scaling  
 - Configurable stakes and card decks selected when a table is opened  
 - Additional tables can be added by duplicating a single keyed config entry  
 
 ## Requirements
 
-- `rsg` or `vorp`  
+- A RedM server  
+- `rsg-core` or `vorp_core`  
 
 ## Installation
 
@@ -33,5 +34,7 @@ Players can approach an enabled poker table and use the configured interaction k
 
 ## License and Warranty
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.  
+This project's source code is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.  
 TThis software is provided WITHOUT ANY WARRANTY. See the GNU GPLv3 for details.
+
+Images and screenshots derived from Red Dead Redemption 2 are not covered by this license and remain the property of their respective rights holders. Red Dead Redemption 2 © Rockstar Games / Take-Two Interactive.

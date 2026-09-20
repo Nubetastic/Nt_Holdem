@@ -61,6 +61,16 @@ ConfigProps.Cards = {
         --["GK"] = "tgk",
         ["New"] = "new",
     },
+    NuiEndings = {
+        ["Blackwater"] = "Bla",
+        ["Valentine"] = "Val",
+        ["Saint Denis"] = "Std",
+        ["Rhodes"] = "Rho",
+        ["Camp"] = "Camp",
+        ["Vanhorn"] = "Van",
+        ["RRS"] = "RRS",
+        ["New"] = "New",
+    },
 }
 
 ConfigProps.Props = {
